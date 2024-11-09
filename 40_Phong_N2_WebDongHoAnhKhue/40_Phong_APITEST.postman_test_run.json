@@ -1,0 +1,170 @@
+{
+	"id": "8fd837ab-ab75-4797-bebb-8992adb161b5",
+	"name": "40_Phong_APITEST",
+	"timestamp": "2024-05-11T23:38:35.411Z",
+	"collection_id": "32582134-7e1c5515-57e3-42de-ba14-31e498097d09",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-11T23:38:34.916Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "5a352ecf-a96b-420e-9800-9144830657c2",
+			"name": "40_Phong_GET",
+			"url": "http://localhost:3000/40_Phong",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC1_PRes200_40_Phong": true,
+				"TC2_FRes200_40_Phong": false
+			},
+			"testPassFailCounts": {
+				"TC1_PRes200_40_Phong": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC2_FRes200_40_Phong": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"TC1_PRes200_40_Phong": true,
+					"TC2_FRes200_40_Phong": false
+				}
+			]
+		},
+		{
+			"id": "6426ebd7-e28e-4362-8246-b0ee8f804a67",
+			"name": "40_Phong_POST",
+			"url": "http://localhost:3000/40_Phong",
+			"time": 4,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"TC1_CheckStatusCodePass_201_40_Phong": true,
+				"TC2_CheckStatusCodeFail_201_40_Phong": false
+			},
+			"testPassFailCounts": {
+				"TC1_CheckStatusCodePass_201_40_Phong": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC2_CheckStatusCodeFail_201_40_Phong": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"TC1_CheckStatusCodePass_201_40_Phong": true,
+					"TC2_CheckStatusCodeFail_201_40_Phong": false
+				}
+			]
+		},
+		{
+			"id": "a836f5ce-5e7f-4187-989b-3a9174e385f2",
+			"name": "40_Phong_PUT",
+			"url": "http://localhost:3000/40_Phong/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"TC1_PCheckName_40_Phong": true,
+				"TC2_FCheckId_40_Phong": false
+			},
+			"testPassFailCounts": {
+				"TC1_PCheckName_40_Phong": {
+					"pass": 1,
+					"fail": 0
+				},
+				"TC2_FCheckId_40_Phong": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"TC1_PCheckName_40_Phong": true,
+					"TC2_FCheckId_40_Phong": false
+				}
+			]
+		},
+		{
+			"id": "ee692c25-c8e0-4ca3-b13d-49c0124da8f1",
+			"name": "40_Phong_DELETE",
+			"url": "http://localhost:3000/40_Phong/4",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"TC1_DeleteFail_40_Phong": false,
+				"TC2_DeletePass_40_Phong": true
+			},
+			"testPassFailCounts": {
+				"TC1_DeleteFail_40_Phong": {
+					"pass": 0,
+					"fail": 1
+				},
+				"TC2_DeletePass_40_Phong": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"TC1_DeleteFail_40_Phong": false,
+					"TC2_DeletePass_40_Phong": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 18,
+	"collection": {
+		"requests": [
+			{
+				"id": "5a352ecf-a96b-420e-9800-9144830657c2",
+				"method": "GET"
+			},
+			{
+				"id": "6426ebd7-e28e-4362-8246-b0ee8f804a67",
+				"method": "POST"
+			},
+			{
+				"id": "a836f5ce-5e7f-4187-989b-3a9174e385f2",
+				"method": "PUT"
+			},
+			{
+				"id": "ee692c25-c8e0-4ca3-b13d-49c0124da8f1",
+				"method": "DELETE"
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.csproj.AssemblyReference.cache
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.Properties.Resources.resources
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.csproj.GenerateResource.cache
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.csproj.CoreCompileInputs.cache
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\bin\Debug\_40_Phong_KTPM_BTL_TT.exe.config
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\bin\Debug\_40_Phong_KTPM_BTL_TT.exe
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\bin\Debug\_40_Phong_KTPM_BTL_TT.pdb
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.exe
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.pdb
+D:\_40_Phong_KTPM_BTL_TT\_40_Phong_KTPM_BTL_TT\obj\Debug\_40_Phong_KTPM_BTL_TT.TimUCLN_40_Phong.resources

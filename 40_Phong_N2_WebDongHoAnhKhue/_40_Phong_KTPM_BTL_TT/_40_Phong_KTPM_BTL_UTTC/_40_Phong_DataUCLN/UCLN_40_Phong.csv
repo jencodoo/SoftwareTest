@@ -1,0 +1,5 @@
+﻿SoA_40_Phong,SoB_40_Phong,expected_40_Phong,Result_40_Phong
+20,5,5,Passed
+12,18,6,Passed
+24,24,24,Passed
+13,26,13,Passed
